@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nemo-orange: #ff6b35;
+  --deep-blue: #004e89;
+  --light-blue: #1a85ff;
+  --coral: #ff8264;
+  --ocean-surface: #e3f2fd;
+}
+
+.ocean-gradient {
+  background: linear-gradient(135deg, var(--deep-blue), var(--light-blue));
+}
+
+.coral-gradient {
+  background: linear-gradient(135deg, var(--nemo-orange), var(--coral));
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
