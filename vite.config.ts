@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'https://HIMANSHI70489.github.io/portfolio_himanshi',
+  base: 'https://Deepu8595.githu.io/Deepu portfolio',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react', 'react', 'react-dom'],
